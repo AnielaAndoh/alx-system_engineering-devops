@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # This script is displaying "Holberton School" 10 times
 for _ in {1..10} ; do
+=======
+# A script which displays Best School 10 times using for loop
+
+for ((i = 1; i <= 10; i++))
+do
+>>>>>>> df14679412f5f30682e2f81ca30e99422b02d904
     echo "Best School"
 done
