@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script which parses apache log files using awk
+# script to parse file for IP and HTTP fields using awk
 
-myfile="apache-access.log"
-awk -F' ' '{ print $1, $9}' $myfile
+file="apache-access.log"
+awk '{print $1, $9}' $file

@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Script which stops the 4-to_infinity_and_beyond process using kill
+# A script that kills the infinite loop with "kill"
 
-kill "$(pgrep -f 4-to_infinity_and_beyond)"
+kill "$(pgrep -f "4-to_infinity_and_beyond")"

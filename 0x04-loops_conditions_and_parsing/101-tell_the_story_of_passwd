@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script which tells a story using the contents of '/etc/passwd' file
+# Read file and manipulate fields to generate story
 
 FILE="/etc/passwd"
 

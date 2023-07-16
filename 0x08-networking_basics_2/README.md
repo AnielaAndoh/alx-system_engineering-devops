@@ -1,1 +1,1 @@
-0x08-networking_basics_2
+Write a Bash script that configures an Ubuntu server with the below requirements.
